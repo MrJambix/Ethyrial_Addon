@@ -23,3 +23,8 @@ Implemented the following items:
        2. Arrows that rotate as you rotate to nearest resource
        3. Ability to enable and disable tracking
        4. Ability to choose which resources to track
+
+#Contributors:
+1. MrJambix
+2. Bardcore
+If you wish to contribute, reach out to me on discord @MrJambix and we can talk details. I will also need to see your work on C# and what it is you are trying to accomplish!
