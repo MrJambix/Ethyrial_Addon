@@ -6,11 +6,11 @@
 4. Download the .DLL file from the respository and insert it ->Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed<-
 5. Launch the Game and enjoy!
 
-# **Deleting Instructions**
+# **Deleting Instructions: **
 1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
 2. Delete the Game.DLL
 3. Place your backup Game.DLL
-4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL 
+4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
 # **Version 1.0**
 Implemented the following items:
