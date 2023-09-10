@@ -29,4 +29,5 @@ Implemented the following items:
 # Contributors:
 1. MrJambix
 2. Bardcore
+
 If you wish to contribute, reach out to me on discord @MrJambix and we can talk details. I will also need to see your work on C# and what it is you are trying to accomplish!
