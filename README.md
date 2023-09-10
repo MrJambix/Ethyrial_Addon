@@ -14,8 +14,8 @@
 
 # **Version 1.0**
 Implemented the following items:
-  1. DPS Meter (There should be 2 at the moment)(1 is Bardcore and the other one is MrJambix) - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
-  2. EXP Meter (There should be 2 at the moment)(1 is Bardcore and the other one is MrJambix) - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
+  1. DPS Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
+  2. EXP Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
   3. Crafting and Gathering Meter
      1. ability to disable and enable 
   5. Resource Tracker
