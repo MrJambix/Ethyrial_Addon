@@ -12,24 +12,28 @@
 3. Place your backup Game.DLL
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
+# ** Coming Soon**
+Crafting and Gathering Meter
+     1. ability to disable and enable 
+Resource Tracker
+       1. Distance to Resource Nearby
+       2. Arrows that rotate as you rotate to nearest resource
+       3. Ability to enable and disable tracking
+       4. Ability to choose which resources to track
+       5. 
 # **Known Bugs**
-Seems to be a bug where the UI goes to Endless Size; Working on it
+~Seems to be a bug where the UI goes to Endless Size; Working on it~
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
 Implemented Key Stroke for activating and de-activating the GUI. Key: "F7"
 
+
 # **Version 1.0**
 Implemented the following items:
   1. DPS Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
   2. EXP Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
-  3. Crafting and Gathering Meter
-     1. ability to disable and enable 
-  5. Resource Tracker
-       1. Distance to Resource Nearby
-       2. Arrows that rotate as you rotate to nearest resource
-       3. Ability to enable and disable tracking
-       4. Ability to choose which resources to track
+
     
 
 
