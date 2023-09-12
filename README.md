@@ -26,8 +26,8 @@ Resource Tracker
        
        
 # **Known Bugs**
-~Seems to be a bug where the UI goes to Endless Size; Working on it~
-Damageout Output and HealsOutput not reading properly. Working on it.
+~1. Seems to be a bug where the UI goes to Endless Size; Working on it~
+2. Damageout Output and HealsOutput not reading properly. Working on it.
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
