@@ -4,7 +4,8 @@
 2. Make a Folder on your Deskopt and Call it DLL_BackUp
 3. Grab the Game.DLL from the Managed folder and place it in your newly created DLL_BackUp
 4. Download the .DLL file from the respository and insert it ->Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed<-
-5. Launch the Game and enjoy!
+5. Launch the Game!
+6. Press "F7" To Activate it
 
 # **Deleting Instructions: **
 1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
@@ -31,11 +32,10 @@ Resource Tracker
 Made changes to the code to match current game Build
 Implemented Key Stroke for activating and de-activating the GUI. Key: "F7"
 
-
 # **Version 1.0**
 Implemented the following items:
-  1. DPS Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
-  2. EXP Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
+  1. DPS/HPS Meter with Total Damage and Total Heals
+ 
 
     
 
