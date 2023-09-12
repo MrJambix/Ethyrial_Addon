@@ -12,6 +12,9 @@
 3. Place your backup Game.DLL
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
+# **Known Bugs**
+Seems to be a bug where the UI goes to Endless Size; Working on it
+
 # **Version 1.1** 
 Made changes to the code to match current game Build
 Implemented Key Stroke for activating and de-activating the GUI. Key: "F7"
