@@ -12,6 +12,10 @@
 3. Place your backup Game.DLL
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
+# **Version 1.1** 
+Made changes to the code to match current game Build
+Implemented Key Stroke for activating and de-activating the GUI. Key: "F7"
+
 # **Version 1.0**
 Implemented the following items:
   1. DPS Meter -There should be 2 at the moment. 1 is Bardcore and the other one is MrJambix - Depending on how tedious it is i will either improve mine and remove his or simply just remove mine.
