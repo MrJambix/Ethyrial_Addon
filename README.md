@@ -16,13 +16,13 @@
 # ** Coming Soon**
 
 **Crafting and Gathering Meter**
-     1. ability to disable and enable 
+1. ability to disable and enable 
      
 **Resource Tracker**
-       1. Distance to Resource Nearby 
-       2. Arrows that rotate as you rotate to nearest resource
-       3. Ability to enable and disable tracking
-       4. Ability to choose which resources to track
+1. Distance to Resource Nearby 
+2. Arrows that rotate as you rotate to nearest resource
+3. Ability to enable and disable tracking
+4. Ability to choose which resources to track
        
        
 # **Known Bugs**
