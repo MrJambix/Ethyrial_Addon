@@ -15,10 +15,10 @@
 
 # ** Coming Soon**
 
-Crafting and Gathering Meter
+**Crafting and Gathering Meter**
      1. ability to disable and enable 
      
-Resource Tracker
+**Resource Tracker**
        1. Distance to Resource Nearby 
        2. Arrows that rotate as you rotate to nearest resource
        3. Ability to enable and disable tracking
@@ -26,9 +26,9 @@ Resource Tracker
        
        
 # **Known Bugs**
-~1. Seems to be a bug where the UI goes to Endless Size; Working on it~
 
-2. Damageout Output and HealsOutput not reading properly. Working on it.
+Damageout Output and HealsOutput not reading properly. Working on it.
+~1Seems to be a bug where the UI goes to Endless Size; Working on it~
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
