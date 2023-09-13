@@ -28,7 +28,8 @@
 # **Known Bugs**
 
 Damageout Output and HealsOutput not reading properly. Working on it.
-~1Seems to be a bug where the UI goes to Endless Size; Working on it~
+
+~Seems to be a bug where the UI goes to Endless Size; Working on it~
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
