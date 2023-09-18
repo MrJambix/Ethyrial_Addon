@@ -1,4 +1,6 @@
 # Ethyrial_Addon
+# **WAITING ON SERVERS TO BE LIVE WITH CURRENT BUILD BEFORE PUSHING NEXT UPDATES**
+
 # **Install Instructions: **
 1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
 2. Make a Folder on your Deskopt and Call it DLL_BackUp
