@@ -1,13 +1,10 @@
 # Ethyrial_Addon
-# **WAITING ON SERVERS TO BE LIVE WITH CURRENT BUILD BEFORE PUSHING NEXT UPDATES**
-
 # **Install Instructions: **
 1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
 2. Make a Folder on your Deskopt and Call it DLL_BackUp
 3. Grab the Game.DLL from the Managed folder and place it in your newly created DLL_BackUp
 4. Download the .DLL file from the respository and insert it ->Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed<-
 5. Launch the Game!
-6. Press "F7" To Activate it
 
 # **Deleting Instructions: **
 1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
@@ -32,6 +29,11 @@
 Damageout Output and HealsOutput not reading properly. Working on it.
 
 ~Seems to be a bug where the UI goes to Endless Size; Working on it~
+
+# **Version 1.1.5**
+Updating the DamageTracker class:
+Updating the UI
+Removed Keybinding "F7" to 
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
