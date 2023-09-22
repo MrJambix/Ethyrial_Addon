@@ -23,6 +23,8 @@
 3. Ability to enable and disable tracking
 4. Ability to choose which resources to track
 
+**Threat Meter**
+
 **Draggable/Moveable GUI** 
        
 # **Known Bugs**
