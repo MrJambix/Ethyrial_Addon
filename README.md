@@ -32,7 +32,7 @@
 
 ~~Seems to be a bug where the UI goes to Endless Size; Working on it~~
 
-#**Version 1.1.4**
+# **Version 1.1.4**
 Fixed Issue where Development Console kept pushing errors upon craft.
 
 # **Version 1.1.3**
