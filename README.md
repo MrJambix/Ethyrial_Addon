@@ -29,10 +29,10 @@
 ~~Damageout Output and HealsOutput not reading properly. Working on it.~~
 ~~Seems to be a bug where the UI goes to Endless Size; Working on it~~
 
-# **Version 1.1.6**
+# **Version 1.1.2**
 Updated for the new Developmental Build
 
-# **Version 1.1.5**
+# **Version 1.1.1**
 Updating the DamageTracker class:
 Updating the UI
 ~~Removed Keybinding "F7" to~~
