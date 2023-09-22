@@ -22,7 +22,8 @@
 2. Arrows that rotate as you rotate to nearest resource
 3. Ability to enable and disable tracking
 4. Ability to choose which resources to track
-       
+
+**Draggable/Moveable GUI** 
        
 # **Known Bugs**
 ~~Damageout Output and HealsOutput not reading properly. Working on it.~~
