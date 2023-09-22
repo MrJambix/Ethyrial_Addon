@@ -25,15 +25,16 @@
        
        
 # **Known Bugs**
+~~Damageout Output and HealsOutput not reading properly. Working on it.~~
+~~Seems to be a bug where the UI goes to Endless Size; Working on it~~
 
-Damageout Output and HealsOutput not reading properly. Working on it.
-
-~Seems to be a bug where the UI goes to Endless Size; Working on it~
+# **Version 1.1.6**
+Updated for the new Developmental Build
 
 # **Version 1.1.5**
 Updating the DamageTracker class:
 Updating the UI
-Removed Keybinding "F7" to 
+~~Removed Keybinding "F7" to~~
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
