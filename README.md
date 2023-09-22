@@ -29,7 +29,11 @@
        
 # **Known Bugs**
 ~~Damageout Output and HealsOutput not reading properly. Working on it.~~
+
 ~~Seems to be a bug where the UI goes to Endless Size; Working on it~~
+
+#**Version 1.1.4**
+Fixed Issue where Development Console kept pushing errors upon craft.
 
 # **Version 1.1.3**
 Made Changed to GUI that was preventing me from implementing a Draggable Logic to move the UI. Now that this is in I can go ahead and work on a Handler for GUI Dragging.
@@ -40,7 +44,7 @@ Updated for the new Developmental Build
 # **Version 1.1.1**
 Updating the DamageTracker class:
 Updating the UI
-~~Removed Keybinding "F7" to~~
+Removed Keybinding "F7"
 
 # **Version 1.1** 
 Made changes to the code to match current game Build
