@@ -29,6 +29,9 @@
 ~~Damageout Output and HealsOutput not reading properly. Working on it.~~
 ~~Seems to be a bug where the UI goes to Endless Size; Working on it~~
 
+# **Version 1.1.3**
+Made Changed to GUI that was preventing me from implementing a Draggable Logic to move the UI. Now that this is in I can go ahead and work on a Handler for GUI Dragging.
+
 # **Version 1.1.2**
 Updated for the new Developmental Build
 
