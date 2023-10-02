@@ -24,13 +24,12 @@
 4. Ability to choose which resources to track
 
 **Threat Meter**
-
 **Draggable/Moveable GUI** 
        
-# **Known Bugs**
-~~Damageout Output and HealsOutput not reading properly. Working on it.~~
 
-~~Seems to be a bug where the UI goes to Endless Size; Working on it~~
+# **Version 1.1.5** 
+Implemented Basic Threat Tracker functions and UI.
+Won't work on all classes at the moment.
 
 # **Version 1.1.4**
 Fixed Issue where Development Console kept pushing errors upon craft.
