@@ -13,10 +13,7 @@
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
 # ** Coming Soon**
-
-**Crafting and Gathering Meter**
-1. ability to disable and enable 
-     
+ 
 **Resource Tracker**
 1. Distance to Resource Nearby 
 2. Arrows that rotate as you rotate to nearest resource
@@ -24,12 +21,13 @@
 4. Ability to choose which resources to track
 
 **Threat Meter**
-**Draggable/Moveable GUI** 
-       
+**Draggable/Moveable GUI or Possible GUI changes** 
+
+# **Known Issues**
+1. Threat will not read properly to the UI removed the functions left the UI portion while i work on it.
 
 # **Version 1.1.5** 
-Implemented Basic Threat Tracker functions and UI.
-Won't work on all classes at the moment.
+Implemented Basic Threat Tracker function
 
 # **Version 1.1.4**
 Fixed Issue where Development Console kept pushing errors upon craft.
