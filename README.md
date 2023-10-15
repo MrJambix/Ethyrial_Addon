@@ -12,7 +12,7 @@
 3. Place your backup Game.DLL
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
-# ** Coming Soon**
+# **Work In Progress**
 
 **Crafting and Gathering Meter**
 1. ability to disable and enable 
@@ -26,39 +26,31 @@
 **Threat Meter**
 **Draggable/Moveable GUI** 
        
-
-# **Version 1.1.5** 
-Implemented Basic Threat Tracker functions and UI.
-Won't work on all classes at the moment.
-
-# **Version 1.1.4**
-Fixed Issue where Development Console kept pushing errors upon craft.
-
-# **Version 1.1.3**
-Made Changed to GUI that was preventing me from implementing a Draggable Logic to move the UI. Now that this is in I can go ahead and work on a Handler for GUI Dragging.
-
-# **Version 1.1.2**
-Updated for the new Developmental Build
-
-# **Version 1.1.1**
-Updating the DamageTracker class:
-Updating the UI
-Removed Keybinding "F7"
+# **Version 1.1.0.**
+Minor Changes to GUI
+Added the base for Resource Tracker
+Worked on Threat Meter but still not fully functioning
 
 # **Version 1.1** 
-Made changes to the code to match current game Build
-Implemented Key Stroke for activating and de-activating the GUI. Key: "F7"
+Added ThreatMeter
+
+# **Version 1.0.3**
+Fixed Issue where Development Console kept pushing errors upon craft.
+Added a base for Dragging UI
+
+# **Version 1.0.2**
+Updated for Developmental Build
+
+# **Version 1.0.1** 
+Updated for Current Build
 
 # **Version 1.0**
-Implemented the following items:
+Addon Uploaded with the following functions:
   1. DPS/HPS Meter with Total Damage and Total Heals
  
-
-    
-
+  
 
 # Contributors:
 1. MrJambix
 2. Bardcore
-
-If you wish to contribute, reach out to me on discord @MrJambix and we can talk details. I will also need to see your work on C# and what it is you are trying to accomplish!
+3. Knowledge/Ryan
