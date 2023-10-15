@@ -54,8 +54,6 @@ Updated for the new Developmental Build
 # **Version 1.1.1**
 Updating the DamageTracker class:
 Updating the UI
-Removed Keybinding "F7"
->>>>>>> 79853123c81a3dcb13a102f20e744a076649137c
 
 # **Version 1.1** 
 Added ThreatMeter
