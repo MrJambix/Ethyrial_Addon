@@ -25,24 +25,20 @@
 4. Ability to choose which resources to track
 
 **Threat Meter**
-**Draggable/Moveable GUI** 
-       
-# **Version 1.1.0.**
-Minor Changes to GUI
-Added the base for Resource Tracker
-Worked on Threat Meter but still not fully functioning
+**Draggable/Moveable GUI**  
 
 **Draggable/Moveable GUI or Possible GUI changes** 
 
 # **Known Issues**
 1. Threat will not read properly to the UI removed the functions left the UI portion while i work on it.
 
-# **Version 1.1.1**
-Updating the DamageTracker class:
-Updating the UI
-
 # **Version 1.1** 
 Added ThreatMeter
+
+# **Version 1.1.0.**
+Minor Changes to GUI
+Added the base for Resource Tracker
+Worked on Threat Meter but still not fully functioning
 
 # **Version 1.0.3**
 Fixed Issue where Development Console kept pushing errors upon craft.
