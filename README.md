@@ -62,5 +62,5 @@ Addon Uploaded with the following functions:
 
 # Contributors:
 1. MrJambix
-2. Bardcore
+2. Bardcore (Original Creator of the DPS/Exp Tracker);Instead of replacing his UI I decided to keep it incase he returns.
 3. Knowledge/Ryan
