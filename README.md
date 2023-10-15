@@ -32,13 +32,13 @@
 # **Known Issues**
 1. Threat will not read properly to the UI removed the functions left the UI portion while i work on it.
 
-# **Version 1.1** 
-Added ThreatMeter
-
-# **Version 1.1.0.**
+# **Version 1.0.5** 
 Minor Changes to GUI
 Added the base for Resource Tracker
-Worked on Threat Meter but still not fully functioning
+Worked on Threat Meter
+
+# **Version 1.0.4.**
+Added ThreatMeter
 
 # **Version 1.0.3**
 Fixed Issue where Development Console kept pushing errors upon craft.
