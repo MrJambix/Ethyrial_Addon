@@ -16,21 +16,36 @@
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
 
-# ** Coming Soon**
+# **ROAD MAP** 
 
-**Resource Tracker**
-1. Distance to Resource Nearby 
-2. Arrows that rotate as you rotate to nearest resource
-3. Ability to enable and disable tracking
-4. Ability to choose which resources to track
+1. Populate and Update Threat Data
+Data Collection: Implement logic to calculate and update threat levels. This will likely involve monitoring player actions, enemy reactions, and other in-game events that influence threat.
+Update threatTrackerEntries: Whenever there's a change in threat levels, update the threatTrackerEntries list accordingly. This could mean adding new entries, updating existing ones, or removing entries if an entity is no longer relevant.
 
-**Threat Meter**
-**Draggable/Moveable GUI**  
+2. Draw the Threat Meter in the Game UI
+Invoke DrawThreatMeter: Ensure that DrawThreatMeter is called in the appropriate context, typically within the game's update loop or in response to specific events that require the UI to be refreshed.
+UI Placement: Decide where and when the threat meter should be displayed in the game. 
 
-**Draggable/Moveable GUI or Possible GUI changes** 
+3. Testing and Balancing
+Functional Testing: Test the threat meter in various game scenarios to ensure it's working as expected. Check if the threat levels are accurately reflected and if the UI updates correctly.
+User Experience: Consider the player's perspective. Is the threat meter easy to understand and use? Does it add to the gameplay experience?
+Performance Considerations: Monitor the performance impact of your threat meter, especially if it involves complex calculations or frequent UI updates.
 
-# **Known Issues**
-1. Threat will not read properly to the UI removed the functions left the UI portion while i work on it.
+4. Advanced Features and Polish
+Visual Enhancements: Depending on your game's style, consider adding animations, colors, or icons to make the threat meter more visually appealing and informative.
+Customization Options: provide options for players to customize the threat meter's appearance or behavior.
+
+5. Documentation and Comments
+Code Documentation: for future maintenance or if other developers work on your code.
+Player Guidance: include tutorials or tooltips in your game to help players understand the threat meter.
+
+6. Gather Feedback
+Playtesting: Have others playtest your game. Gather feedback on the threat meter's functionality and its impact on the gameplay experience.
+
+
+
+
+
 
 # **Version 1.0.5** 
 Minor Changes to GUI
