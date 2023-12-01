@@ -45,6 +45,8 @@ Playtesting: Have others playtest your game. Gather feedback on the threat meter
 
 
 
+# **Version 2**
+if an entity has a threat level of 50, and the total threat level of all entities is 200, the calculation would be (50 / 200) * 100 = 25%. This means the entity is responsible for 25% of the total threat.
 
 
 # **Version 1.0.5** 
