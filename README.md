@@ -47,6 +47,27 @@
      - Click "Verify Integrity of Game Files." Steam will restore the original "Game.DLL."
 
 
+# **Version 2.1.1
+# Changelog
+
+## [Unreleased]
+
+### Added
+- EXP percentage display feature to the GUI.
+
+### Changed
+- Modified the EXP bar to match the size of the "Other Stats" box.
+- Adjusted the EXP bar positioning to align with the bottom of the "Other Stats" box.
+- Improved the calculation of the EXP bar's `yPos` to prevent overlapping with other GUI elements.
+
+### Fixed
+- Issue where the EXP bar was not displaying due to incorrect positioning.
+- Bug related to redeclaration of the `flag` variable in the EXP bar calculation, causing a compile error (CS0136).
+
+## [Previous Version] - [Date]
+
+- Initial release or changes from the previous version.
+
 # **Version 2.1**
 ## Changelog
 
