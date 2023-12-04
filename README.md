@@ -17,35 +17,6 @@
 4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
 
 
-# **ROAD MAP** 
-
-1. Populate and Update Threat Data
-Data Collection: Implement logic to calculate and update threat levels. This will likely involve monitoring player actions, enemy reactions, and other in-game events that influence threat.
-Update threatTrackerEntries: Whenever there's a change in threat levels, update the threatTrackerEntries list accordingly. This could mean adding new entries, updating existing ones, or removing entries if an entity is no longer relevant.
-
-2. Draw the Threat Meter in the Game UI
-Invoke DrawThreatMeter: Ensure that DrawThreatMeter is called in the appropriate context, typically within the game's update loop or in response to specific events that require the UI to be refreshed.
-UI Placement: Decide where and when the threat meter should be displayed in the game. 
-
-3. Testing and Balancing
-Functional Testing: Test the threat meter in various game scenarios to ensure it's working as expected. Check if the threat levels are accurately reflected and if the UI updates correctly.
-User Experience: Consider the player's perspective. Is the threat meter easy to understand and use? Does it add to the gameplay experience?
-Performance Considerations: Monitor the performance impact of your threat meter, especially if it involves complex calculations or frequent UI updates.
-
-4. Advanced Features and Polish
-Visual Enhancements: Depending on your game's style, consider adding animations, colors, or icons to make the threat meter more visually appealing and informative.
-Customization Options: provide options for players to customize the threat meter's appearance or behavior.
-
-5. Documentation and Comments
-Code Documentation: for future maintenance or if other developers work on your code.
-Player Guidance: include tutorials or tooltips in your game to help players understand the threat meter.
-
-6. Gather Feedback
-Playtesting: Have others playtest your game. Gather feedback on the threat meter's functionality and its impact on the gameplay experience.
-
-
-
-
 # **Version 2.1**
 ## Changelog
 
@@ -80,30 +51,45 @@ Playtesting: Have others playtest your game. Gather feedback on the threat meter
    - Discussed the possibility of deleting the `UpdateExperienceBarUI` method since its functionality was incorporated into the `DrawGUI` method.
 
 # **Version 2**
-if an entity has a threat level of 50, and the total threat level of all entities is 200, the calculation would be (50 / 200) * 100 = 25%. This means the entity is responsible for 25% of the total threat.
+- Implemented Threat Level Calculation
+  - Added a new feature to calculate the threat level of entities.
+  - The calculation is now based on the percentage of an entity's threat level compared to the total threat level of all entities.
+  - Example: If an entity has a threat level of 50, and the total threat level of all entities is 200, the calculation would be \((50 / 200) * 100 = 25%\).
+  - This means the entity is responsible for 25% of the total threat.
+-------------------------------------------------
+### Version 1.0 to 1.5 Changes:
+- Introduced GUI improvements.
+- Implemented Resource Tracker base.
+- Developed Threat Meter.
+- Fixed Development Console error issue.
+- Added the foundation for Dragging UI.
+- Compatibility updates for different builds.
+- Initial release with DPS/HPS Meter, Total Damage, and Total Heals functionality.
 -------------------------------------------------
 # **Version 1.5** 
-Minor Changes to GUI
-Added the base for Resource Tracker
-Worked on Threat Meter
+- Minor Changes to GUI
+- Added the base for Resource Tracker
+- Worked on Threat Meter
 
 # **Version 1.4.**
-Added ThreatMeter
+- Added ThreatMeter
 
 # **Version 1.3**
-Fixed Issue where Development Console kept pushing errors upon craft.
-Added a base for Dragging UI
+- Fixed Issue where Development Console kept pushing errors upon craft.
+- Added a base for Dragging UI
 
 # **Version 1.2**
-Updated for Developmental Build
+- Updated for Developmental Build
 
 # **Version 1.1** 
-Updated for Current Build
+- Updated for Current Build
 
 # **Version 1.0**
-Addon Uploaded with the following functions:
+- Addon Uploaded with the following functions:
   1. DPS/HPS Meter with Total Damage and Total Heals
- 
+-------------------------------------------------
+
+
 
 
 # Contributors:
