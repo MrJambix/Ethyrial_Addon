@@ -47,6 +47,26 @@
      - Click "Verify Integrity of Game Files." Steam will restore the original "Game.DLL."
 
 
+
+## Changelog
+
+### Version 2.1.2
+
+#### Added
+- Created the `ExperienceDisplay` script in Unity.
+- Implemented references to UI Text elements for raw experience and experience percentage.
+- Added a reference to the `RPGLibrary` namespace to ensure access to necessary functionality.
+
+#### Updated
+- In the `Start` method, the script now finds the local player entity within the scene.
+
+#### Changed
+- In the `Update` method, the script now updates the UI Text for raw experience with the player's current experience value.
+- The script also calculates and updates the experience percentage, formatting it to two decimal places.
+
+This script is designed to display the player's experience information in a Unity GUI, making it easier for players to track their progress in the game
+
+
 # **Version 2.1.1
 # Changelog
 
