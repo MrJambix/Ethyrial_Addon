@@ -3,18 +3,46 @@
 
 
 # Ethyrial_Addon
-# **Install Instructions: **
-1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
-2. Make a Folder on your Deskopt and Call it DLL_BackUp
-3. Grab the Game.DLL from the Managed folder and place it in your newly created DLL_BackUp
-4. Download the .DLL file from the respository and insert it ->Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed<-
-5. Launch the Game!
+**Installation Instructions:**
 
-# **Deleting Instructions: **
-1. Find your Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed
-2. Delete the Game.DLL
-3. Place your backup Game.DLL
-4. If you did not save your back up then simply head to Steam > Right Click Ethyrial> Properties > Verify Game Integrity. The Game will give you it's original Game.DLL
+1. **Locate your "Ethyrial Echoes of Yore" game directory:**
+   - Find the directory path: `Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed`
+
+2. **Create a Backup Folder:**
+   - On your desktop, create a new folder and name it "DLL_BackUp."
+
+3. **Back Up the Game.DLL File:**
+   - From the "Managed" folder in your game directory, locate the "Game.DLL" file.
+   - Copy the "Game.DLL" file and place it in the "DLL_BackUp" folder you created earlier.
+
+4. **Download the Updated DLL:**
+   - Download the updated .DLL file from the repository.
+
+5. **Replace the Game.DLL:**
+   - Insert the downloaded .DLL file into the following directory:
+     `Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed`
+
+6. **Launch the Game:**
+   - You can now launch the game with the updated .DLL file.
+
+**Uninstallation Instructions:**
+
+1. **Locate your "Ethyrial Echoes of Yore" game directory:**
+   - Find the directory path: `Steam\steamapps\common\Ethyrial Echoes of Yore\Ethyrial_Data\Managed`
+
+2. **Delete the Game.DLL:**
+   - Remove the "Game.DLL" file from the "Managed" folder.
+
+3. **Restore the Backup (if available):**
+   - If you have previously backed up the "Game.DLL" file, place it back into the "Managed" folder.
+
+4. **No Backup? Verify Game Integrity:**
+   - In case you didn't save a backup of the original "Game.DLL," you can restore it by following these steps:
+     - Go to your Steam library.
+     - Right-click on "Ethyrial."
+     - Select "Properties."
+     - Navigate to the "Local Files" tab.
+     - Click "Verify Integrity of Game Files." Steam will restore the original "Game.DLL."
 
 
 # **Version 2.1**
