@@ -47,10 +47,8 @@
      - Click "Verify Integrity of Game Files." Steam will restore the original "Game.DLL."
 
 
-
-## Changelog
-
-### Version 2.1.2
+# **Version 2.1.2
+# Changelog
 
 #### Added
 - Created the `ExperienceDisplay` script in Unity.
@@ -69,8 +67,6 @@ This script is designed to display the player's experience information in a Unit
 
 # **Version 2.1.1
 # Changelog
-
-## [Unreleased]
 
 ### Added
 - EXP percentage display feature to the GUI.
