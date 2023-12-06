@@ -65,7 +65,7 @@
 This script is designed to display the player's experience information in a Unity GUI, making it easier for players to track their progress in the game
 
 
-# **Version 2.1.1
+# **Version 2.1.1**
 # Changelog
 
 ### Added
