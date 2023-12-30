@@ -71,9 +71,6 @@
 - Issue with EXP bar not displaying.
 - Compile error (CS0136) related to `flag` variable.
 
-### [Previous Versions]
-- Describe initial release and other changes.
-
 ## Contributors
 1. MrJambix
 2. Bardcore (Original Creator of DPS/Exp Tracker)
