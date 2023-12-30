@@ -10,14 +10,21 @@ Global $PowerfulCrossHotkey = "5"
 ; A hypothetical function to check the number of Martial Combo Stacks
 Func GetMartialComboStacks()
     ; This function would contain the logic to retrieve the current number of Martial Combo Stacks
-    ; As accessing game data directly is complex and often against game rules, this is just a conceptual placeholder.
-    ; The actual implementation would depend on how the game provides this information, if it's even allowed.
+    ; The actual implementation would depend on how the game provides this information.
 
     Local $stacks = 0
-    ; Logic to determine the number of stacks would go here. This might involve reading from game memory, 
-    ; UI elements, or other indicators, which is typically not allowed in most games.
+    ; Logic to determine the number of stacks would go here. This might involve reading from game memory.
+    ; UI elements or other indicators.
 
     Return $stacks
+EndFunc
+
+Func IsInCombat()
+    ; Placeholder logic for checking if the player is currently in combat
+    ; This could involve checking game UI elements or other indicators
+    Local $inCombat = False
+    ; Logic for determining combat status would go here
+    Return $inCombat
 EndFunc
 
 ; Main loop
