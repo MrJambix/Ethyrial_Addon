@@ -23,6 +23,7 @@ Func IsInCombat()
     ; Placeholder logic for checking if the player is currently in combat
     ; This could involve checking game UI elements or other indicators
     Local $inCombat = False
+    ; Instance Id for InCombat: 1213778
     ; Logic for determining combat status would go here
     Return $inCombat
 EndFunc
