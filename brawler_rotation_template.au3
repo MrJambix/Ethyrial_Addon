@@ -65,9 +65,7 @@ Func GetMartialComboStacks()
 
     ; In a real scenario, the following would be needed:
     ; 1. Accessing game UI elements that display the stack count.
-    ; 2. Reading the stack count from the game's memory (requires memory reading techniques, which is complex and often against game rules).
-    ; 3. Implementing image recognition techniques to read stacks from the screen (this is also complex and might not be permitted).
-
+    ; 2. Reading the stack count from the game's memory 
     ; For this hypothetical function, we'll return a fixed number of stacks.
     $stacks = 5 ; Assuming 5 stacks for demonstration purposes
 
