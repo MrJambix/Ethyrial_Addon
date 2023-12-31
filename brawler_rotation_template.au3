@@ -9,29 +9,32 @@ Global $PowerfulCrossHotkey = "5"
 
 ; A hypothetical function to check the number of Martial Combo Stacks
 Func GetMartialComboStacks()
-    ; This function would contain the logic to retrieve the current number of Martial Combo Stacks
-    ; The actual implementation would depend on how the game provides this information.
-
+    ; Placeholder logic for retrieving the current number of Martial Combo Stacks
     Local $stacks = 0
-    ; Logic to determine the number of stacks would go here. This might involve reading from game memory.
-    ; UI elements or other indicators.
-
+    ; Logic to determine the number of stacks would go here
     Return $stacks
 EndFunc
 
 Func IsInCombat()
     ; Placeholder logic for checking if the player is currently in combat
-    ; This could involve checking game UI elements or other indicators
     Local $inCombat = False
     ; Instance Id for InCombat: 1213778
     ; Logic for determining combat status would go here
     Return $inCombat
 EndFunc
 
+Func IsInRangeOfEnemy()
+    ; Placeholder logic for checking if the player is in range of an enemy
+    Local $inRange = False
+    ; Logic for determining if an enemy is within range would go here
+    ; This might involve checking specific game UI elements or other in-game indicators
+    Return $inRange
+EndFunc
+
 ; Main loop
 While 1
     ; Check for a condition or trigger to start the rotation
-    If SomeCondition() Then
+    If SomeCondition() And IsInCombat() And IsInRangeOfEnemy() Then
         PerformRotation()
     EndIf
 
@@ -45,27 +48,10 @@ Func PerformRotation()
     Sleep(500) ; Wait 500 milliseconds
 
     ; Continue with other skills in rotation
-    Send($FastHookHotkey)
-    Sleep(500)
-
-    ; Use Horizontal Kick
-    Send($HorizontalKickHotkey)
-    Sleep(500)
-
-    ; Example: Use Fierce Uppercut at a certain condition
-    If SomeOtherCondition() Then
-        Send($FierceUppercutHotkey)
-        Sleep(500)
-    EndIf
-
-    ; Use Powerful Cross if needed
-    Send($PowerfulCrossHotkey)
-    Sleep(500)
-
-    ; Continue rotation or add more logic as needed
     ; ...
 EndFunc
 
+; Additional conditions and logic functions
 Func SomeCondition()
     ; Define a condition to start the rotation
     ; ...
