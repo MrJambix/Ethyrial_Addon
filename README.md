@@ -47,6 +47,45 @@
 
 ## Changelog
 
+
+# Version 2.1.3 BardButler Class Enhancements and Impact
+### Added threatTrackerEntries Field
+- **Description**: A list to track threats for each entity.
+- **Impact**: Enhanced Threat Tracking: Enables detailed tracking of threats associated with game entities.
+
+### Added currentTarget Field
+- **Description**: A field to hold the currently targeted hostile entity.
+- **Impact**: Targeted Entity Management: Allows tracking of the player's focused hostile entity.
+
+### Updated Constructor
+- **Description**: Initialized the new threatTrackerEntries and currentTarget fields.
+- **Impact**: Updated Constructor: Initializes new fields for threat tracking and target management.
+
+### New Method: SetTarget(GameObject target)
+- **Description**: Sets the current target and manages the application of the outline effect.
+- **Impact**: Dynamic Target Selection and Highlighting: For selecting and visually highlighting the targeted entity.
+
+### Updated DrawThreatMeter Method
+- **Description**: Enhanced to highlight the threat level for the current target. Adjusted to display threat information based on the targeted entity.
+- **Impact**: Dynamic Threat Meter Display: Updates to display and highlight the threat level of targeted entities.
+
+### Updated UpdateThreatTrackerEntries Method
+- **Description**: Revised to update threat levels or add new entries to threatTrackerEntries.
+- **Impact**: Flexible Threat Level Management: Real-time adjustment of threat levels.
+
+### ThreatEntry Class (Assumed Existing or Added)
+- **Description**: Represents a threat with properties for the entity and its threat level.
+- **Impact**: Structured Threat Representation: Encapsulates information about entities and their threat levels.
+
+### Integration with HostileTargetEntityOutline
+- **Description**: Utilized for visually highlighting targeted hostile entities.
+- **Impact**: Visual Highlighting Integration: For clear visual indication of targeted entities.
+
+### Adjustments in CalculateThreat Method
+- **Description**: Enhanced threat level calculation based on game dynamics.
+- **Impact**: Improved Threat Calculation Logic: Nuanced threat level calculation.
+
+
 ### Version 2.1.2
 #### Added
 - `ExperienceDisplay` script in Unity.
