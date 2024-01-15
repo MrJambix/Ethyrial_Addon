@@ -85,6 +85,25 @@
 - **Description**: Enhanced threat level calculation based on game dynamics.
 - **Impact**: Improved Threat Calculation Logic: Nuanced threat level calculation.
 
+## SkillListDisplayController Class Updates
+
+### Updated Features
+- **UpdateSkillListDisplay Method**: 
+  - Replaced direct calls to `FixedUpdate` with calls to the new `UpdateSkillItem` method in `SkillList_Item`.
+  - Purpose: To align with Unity best practices by avoiding direct calls to lifecycle methods like `FixedUpdate` from other scripts.
+
+## SkillList_Item Class Updates
+
+### New Features
+- **UpdateSkillItem Method**: 
+  - Added a new public method that encapsulates the logic previously in the `FixedUpdate` method.
+  - This method updates the skill item's experience bar and skill value text based on the current state of `skillProg`.
+  - Purpose: To provide a clear and direct way to update skill list items, enhancing code readability and maintainability.
+
+## Purpose of Changes
+- The updates aim to improve the design and architecture of the code, separating concerns and adhering to best practices in Unity development.
+- By moving update logic to a specifically designed public method, the code's readability and maintainability are enhanced.
+
 
 ### Version 2.1.2
 #### Added
