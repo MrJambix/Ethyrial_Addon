@@ -1,6 +1,6 @@
 #include "NomadMemory.au3"
 
-$processName = "Ethyrial.exe" ; Replace with your game's executable name
+$processName = "Ethyrial.exe"
 $processArray = ProcessList($processName)
 If $processArray[0][0] = 0 Then
     MsgBox(0, "Error", "Game process not found.")
