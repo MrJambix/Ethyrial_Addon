@@ -49,6 +49,18 @@
 
 #Version 2.1.4 
 ### Added
+- `SpellLib` class for mapping spell IDs (`SourceUID`) to human-readable spell names, enhancing the clarity of combat log entries.
+- New property `SpellName` in `LogEntry` class, allowing for logging of spell names alongside damage and healing amounts.
+
+### Changed
+- Combat log entries now include spell names instead of just numeric IDs, providing clearer context for actions logged.
+- Updated the `RegisterDamage` method to use `SpellLib` for translating spell IDs to names when creating new log entries.
+- Combat log file location is now dynamically determined based on user environment and saved to `AppData\LocalLow\Gellyberry Studios\Ethyrial\CombatLog.xml`, ensuring logs are easily accessible and stored in a user-specific location.
+### Fixed
+- Addressed an issue where the combat log could fail to initialize properly, leading to potential data loss in logging combat events.
+### Fixed
+- Various minor bug fixes and performance improvements.
+### Added
 - Combat log entry for healing actions, including source UID, healing amount, and timestamp.
 ### Added
 - Initial release of the BardButler system for managing combat events, damage tracking, and threat assessment in a Unity-based game.
