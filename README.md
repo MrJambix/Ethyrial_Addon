@@ -47,6 +47,22 @@
 
 ## Changelog
 
+#Version 2.1.4 
+### Added
+- Combat log entry for healing actions, including source UID, healing amount, and timestamp.
+### Added
+- Initial release of the BardButler system for managing combat events, damage tracking, and threat assessment in a Unity-based game.
+- Support for exporting combat logs to XML for analysis and debugging.
+
+### Fixed
+- Combat log now correctly initializes upon the first damage registration to prevent null reference exceptions.
+- Export logs to XML functionality to ensure combat logs are persisted after every damage or healing event.
+
+### Changed
+- Improved performance of the damage registration process by optimizing the threat calculation and tracker update mechanisms.
+
+### Fixed
+- Various minor bugs related to entity tracking and threat level calculations.
 
 # Version 2.1.3 BardButler Class Enhancements and Impact
 ### Added threatTrackerEntries Field
